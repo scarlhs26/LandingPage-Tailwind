@@ -8,6 +8,6 @@ Este proyecto consiste en recrear el estilo frontend de una página de inicio qu
 No tiene ninguna funcionabilidad es solo elementos y estilos.
 ## 🖼 interfaz:
 
-![Feed del usuario](imagenes/landing.PNG)
+![Feed del usuario](imagenes/landing.png)
 
 
