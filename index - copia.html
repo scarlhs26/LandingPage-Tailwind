@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Gabarito:wght@400;700&family=Montserrat:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="font-[gabarito]">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Aparece abajo en la pagina https://michalsnik.github.io/aos/-->
+    <script>
+        AOS.init();
+      </script>
+    <header class="bg-white w-[100%] h-[100px] flex justify-between items-center px-11 ">
+        <img class=" w-[150px] sm:w-[200px] sm:ml-[100px]" src="LOGO.png" alt="">
+            <input class="hidden peer/menu" type="checkbox" id="menu">
+            <label class="sm:hidden z-10"   for="menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #383838;transform: msFilter;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+            </label>
+            <aside class=" hidden peer-checked/menu:block fixed top-0 right-0 bg-white w-[300px] h-screen text-[#383838] z-20 ">
+                <div class=" mt-[100px] flex flex-col justify-center items-center font-bold text-[25px]">
+                <a href="">Inicio</a>
+                <a href=""> Como Funciona</a>
+                <a href="">Clientes</a>
+                <a class="w-[200px] bg-[#272f42] text-white h-[40px] text-center" href="">Conctátanos</a>
+
+            </div>
+            </aside>
+            
+            <div class=" hidden text-[#383838] sm:flex items-center gap-[40px] font-bold">
+                <a href="">Inicio</a>
+                <a href=""> Como Funciona</a>
+                <a href="">Clientes</a>
+                <a class="w-[200px] bg-[#272f42] pt-[8px]
+                 text-white h-[40px] text-center" href="">Conctátanos</a>
+            </div>
+    </header>
+    <section >
+        <div class="relative">
+            <div class="absolute w-[100%] h-[50vh] bg-[#272f42] opacity-70 sm:w-[100%] sm:h-[90vh] ">
+            </div>
+            <div class="w-[100%] h-[50vh] from-current bg-[url('/principal.jpg')] bg-no-repeat bg-cover bg-center flex justify-center items-center flex-col sm:w-[100%] sm:h-[90vh] ">
+                <h1 class="font-bold text-[250%] text-white z-[2] text-center sm:text-[500%] " data-aos="fade-right">COMPRAMOS TU AUTO, TE PAGAMOS MAS</h1>
+                <p class="text-[#D4CBCB] z-[2] mb-[90px] text-center">Estamos listos para comprar tu auto y ofrecerte el mejor valor posible. <br>Nuestro compromiso es garantizarte un pago más alto por tu vehículo. ¡Confía en nosotros para una transacción sin complicaciones y una oferta que superará tus expectativas!</p>
+                <button class="bg-[#dccdb5] text-[#272f42] z-[2] w-[250px] h-[50px] text-[20px] hover:bg-white" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">Mas información</button>
+            </div>
+        </div>
+
+    </section>
+    <div class="flex justify-center mt-[50px] items-center w-[100%] flex-col h-auto ">
+        <h2 class="text-[50px] font-bold mb-[50px] text-center "> Es muy Fácil y Seguro!</h2>
+        <div class="flex flex-wrap gap-[90px] ml-[80px] sm:ml-[0px] " >
+            <div class=" flex flex-col items-center w-[300px] " data-aos="fade-up"
+            data-aos-duration="2000">
+                <h1 class="font-bold text-[60px] bg-[#272f42] text-[#fff] w-[100px] h-[100px] text-center rounded-[60px] mb-[20px]">1</h1>
+                <h3  class="font-bold mb-[20px] text-[20px] ">
+                    Revisamos tu Auto</h3>
+                <p class="text-[#676565] text-center ">En el primer paso, nos ponemos en marcha. Proporciona los detalles de tu vehículo y, en un abrir y cerrar de ojos, te enviaremos una cotización precisa. Obtén el valor real de tu auto en minutos.</p>
+
+            </div>
+            <div data-aos="fade-up"
+            data-aos-duration="3000" class=" flex flex-col items-center w-[300px]" >
+                <h1 class="font-bold text-[60px] bg-[#272f42] text-[#fff] w-[100px] h-[100px] text-center rounded-[60px] mb-[20px]">2</h1>
+                <h3  class="font-bold mb-[20px] text-[20px] ">
+                    Cotizamos tu auto</h3>
+                <p class="text-[#676565] text-center ">En el primer paso, nos ponemos en marcha. Proporciona los detalles de tu vehículo y, en un abrir y cerrar de ojos, te enviaremos una cotización precisa. Obtén el valor real de tu auto en minutos.</p>
+                <button class="w-[200px] h-[50px] mt-[30px] bg-[#272f42] text-[#fff] text-[20px] hover:bg-[#fff] hover:text-[#000]" >Pregunta Ahora</button>
+
+            </div>
+            <div data-aos="fade-up"
+            data-aos-duration="3000" class=" flex flex-col items-center w-[300px]" >
+                <h1 class="font-bold text-[60px] bg-[#272f42] text-[#fff] w-[100px] h-[100px] text-center rounded-[60px] mb-[20px]">3</h1>
+                <h3  class="font-bold mb-[20px] text-[20px] ">
+                    ¡Te pagamos más por el!</h3>
+                <p class="text-[#676565] text-center ">Te ofreceremos un precio justo y competitivo por tu auto. Si estás de acuerdo, realizaremos la transacción y te pagaremos más por tu vehículo de lo que esperabas. ¡Es un proceso rápido y sin complicaciones!</p>
+
+            </div>
+        </div>
+        
+    </div>
+    <div class="w-[100%] h-auto bg-[#272f42] pt-[50px] flex flex-col items-center mt-[20px]" >
+        <h2 class="text-[35px] text-[#fff] font-bold mb-[20px] text-center "> ¿Listo para obtener el mejor valor <br> para tu auto y una experiencia sin preocupaciones?</h2>
+        <p class="text-[#b1aeae] text-center">Inicia el proceso ahora mismo y descubre cuánto puedes obtener <br>por tu vehículo. ¡Cotiza, revisa y obtén un pago competitivo hoy mismo!</p>
+        <button class="w-[200px] h-[50px] mt-[30px] bg-[#dccdb5] text-[#000] text-[20px] mb-[30px] hover:bg-[#fff]" >Pregunta Ahora</button>
+    </div>
+    <div class="mt-[100px] ">
+        <h2 class="text-[50px] font-bold mb-[50px] text-center "> ¿Por qué te conviene?</h2>
+        <div class="flex justify-center flex-wrap gap-[70px] pl-[100px] pr-[100px]  "data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+                <div class="bg-[#ede3d5] w-[320px] p-[20px] flex">
+                <img class="w-[60px] h-[70px]" src="img1.png" alt="">
+                <div>
+                    <h3  class="font-bold mb-[10px] text-center text-[20px] ">
+                        Cotizamos tu auto</h3>
+                    <p class="text-[#534d45] text-center">Obtén una cotización precisa para tu vehículo en cuestión de minutos, sin complicaciones ni esperas innecesarias</p>
+                </div>
+            </div>
+            <div class="bg-[#ede3d5] w-[320px] p-[20px] flex">
+                <img class="w-[60px] h-[70px]" src="img2.png" alt="">
+                <div>
+                    <h3  class="font-bold mb-[10px] text-center text-[20px] ">
+                        Revisión Profesional</h3>
+                    <p class="text-[#534d45] text-center">Nuestros expertos realizarán una revisión minuciosa de tu auto para asegurarse de que todo esté en orden, lo que te proporcionará tranquilidad y transparencia en la transacción.</p>
+                </div>
+            </div>
+            <div class="bg-[#ede3d5] w-[320px] p-[20px] flex">
+                <img class="w-[60px] h-[70px]" src="img3.png" alt="">
+                <div>
+                    <h3  class="font-bold mb-[10px] text-center text-[20px] ">
+                        Pago Competitivo</h3>
+                    <p class="text-[#534d45] text-center">Te ofrecemos un precio justo y competitivo por tu vehículo. No solo te deshaces de tu auto de manera conveniente, sino que también obtienes un valor adecuado por él.</p>
+                </div>
+            </div>
+            <div class="bg-[#ede3d5] w-[320px] p-[20px] flex">
+                <img class="w-[60px] h-[70px]" src="img4.png" alt="">
+                <div>
+                    <h3  class="font-bold mb-[10px] text-center text-[20px] ">
+                        Proceso Sencillo</h3>
+                    <p class="text-[#534d45] text-center"> El proceso es fácil y sin complicaciones. Nos encargamos de la documentación y la transacción, lo que te ahorra tiempo y esfuerzo.</p>
+                </div>
+            </div>
+            
+    </div>
+    <div class="flex gap-[80px] mb-[150px] justify-center items-center mt-[50px] flex-wrap ml-[100px] mr-[100px]" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
+        <div class="bg-[#ede3d5] w-[320px] p-[20px] flex" >
+            <img class="w-[60px] h-[70px]" src="img5.png" alt="">
+            <div>
+                <h3  class="font-bold mb-[10px] text-center text-[20px] ">
+                    Elimina el Estrés</h3>
+                <p class="text-[#534d45] text-center">Vender un vehículo puede ser un proceso estresante. Nuestro servicio hace que todo sea más simple y sin preocupaciones para ti.</p>
+            </div>
+        </div>
+        <div class="bg-[#ede3d5] w-[320px] p-[20px] flex">
+            <img class="w-[60px] h-[70px]" src="img6.png" alt="">
+            <div>
+                <h3  class="font-bold mb-[10px] text-center text-[20px] ">
+                    Rapidez en el Pago</h3>
+                <p class="text-[#534d45] text-center">Una vez que aceptes la oferta, no tendrás que esperar mucho para recibir tu pago. Hacemos que el proceso sea lo más rápido y eficiente posible.</p>
+            </div>
+        </div>
+    </div>
+    <div class="w-[100%] h-auto bg-[#272f42] pt-[30px] pb-[30px] flex items-center justify-center flex-wrap sm:pl-[80px] mt-[20px]">
+        <img class="w-[400px] " src="mujer.carro.jpg" alt="">
+        <div class="flex ml-[50px] flex-col items-start">
+        <h2 class="text-[25px] text-[#fff] font-bold mb-[20px] ">  Dile adiós a tu auto actual y darle <br> la bienvenida a un proceso de venta sin estrés</h2>
+        <p class="text-[#b1aeae] sm:w-[500px]">Inicia el proceso ahora mismo y descubre cuánto puedes obtener por tu vehículo. ¡Cotiza, revisa y obtén un pago competitivo hoy mismo!</p>
+        <button class="w-[200px] h-[50px] mt-[30px] bg-[#dccdb5] text-[#000] text-[20px] mb-[30px] hover:bg-[#fff]" >Pregunta Ahora</button>
+    </div>
+    </div>
+    
+    <div class="mt-[100px]">
+        <h2 class="text-[50px] font-bold mb-[50px] text-center "> Clientes Satisfechos</h2>
+        <div class="flex justify-center flex-wrap gap-[100px]">
+            <div class="w-[300px] p-[30px] flex flex-col items-center bg-[#e6ddcf] " data-aos="zoom-in">
+                <img class=" rounded-[100px]" src="maria.PNG" alt="">
+                <h2 class="font-bold mb-[10px] text-center text-[20px] mt-[10px] ">Maria Castaño</h2>
+                <p class="text-[#534d45]">"Increíblemente satisfecho con el servicio. Cotizar mi auto fue rápido y fácil, y la revisión fue transparente y profesional. Me sorprendió lo competitiva que era su oferta y cómo se encargaron de todos los detalles. ¡Sin duda, recomendaría este servicio a cualquiera que quiera vender su auto sin complicaciones!"</p>
+            </div>
+            <div class="w-[300px] p-[30px] flex flex-col items-center bg-[#272f42] " data-aos="zoom-in">
+                <img class=" w-[114px] rounded-[152px]" src="fabian.PNG" alt="">
+                <h2 class="font-bold mb-[10px] text-center text-[#fff] text-[20px] mt-[10px] ">Fabian Ortega</h2>
+                <p class="text-[#dbd9d6]">"Vender mi auto nunca fue tan simple. Este servicio hizo que todo el proceso fuera rápido y conveniente. La cotización fue justa, la revisión fue detallada, y el pago se realizó sin problemas. ¡Una experiencia excelente en general!"</p>
+            </div>
+            <div class="w-[300px] p-[30px] flex flex-col items-center bg-[#e6ddcf] " data-aos="zoom-in">
+                <img class=" w-[130px] rounded-[100px]" src="andres.PNG" alt="">
+                <h2 class="font-bold mb-[10px] text-center text-[20px] mt-[10px] ">Andres lopez</h2>
+                <p class="text-[#534d45]">"Estaba un poco escéptico al principio, pero después de usar este servicio, no puedo estar más contento. No solo obtuve un buen precio por mi auto, sino que también me ahorré el tiempo y el estrés de tratar de venderlo por mi cuenta. ¡Altamente recomendado!"</p>
+            </div>
+        </div>
+       
+    </div>
+    <div class="flex flex-col justify-center items-center mt-[150px] ">
+        <h2 class="text-[50px] font-bold mb-[50px] text-center "> SOMOS TU MEJOR OPCION</h2>
+        <p class="text-center sm:pl-[300px] sm:pr-[300px] text-[#676565]"> Estamos comprometidos en brindarte la mejor experiencia al vender tu auto. Nuestra rapidez en las cotizaciones, revisiones profesionales y pagos competitivos hacen que seamos la elección ideal. Ponemos a tu disposición una forma sin complicaciones y eficiente de vender tu vehículo, eliminando el estrés y maximizando el valor de tu auto. Confía en nosotros para obtener una solución confiable y transparente en la venta de tu vehículo, y descubre por qué somos tu mejor opción</p>
+        <button class="w-[200px] h-[50px] mt-[30px] bg-[#272f42] text-[#FFF] text-[20px] mb-[30px] hover:bg-[#000]" >Pregunta Ahora</button>
+    </div>
+<footer class="bg-[#272F42] p-[100px] w-[100%] h-auto flex justify-center items-center flex-wrap gap-[200px]">
+    <div>
+        <img class="w-[250px] mb-[20px]" src="LOGO-obs.png" alt="">
+        <p class="w-[250px] text-[14px] text-[#cac9c9]">¡Confía en nosotros para una transacción sin complicaciones y una oferta que superará tus expectativas!</p>
+
+    </div>
+    <div>
+        <h2 class="text-white text-[20px] text-center mb-[20px]">Redes sociales</h2>
+        <div class="flex">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: #fff;transform: msFilter"><path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"></path></svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: #fff;transform: msFilter"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: #fff;transform: msFilter"><path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"></path></svg>
+        
+        
+    </div>
+    </div>
+    <div>
+        <h2 class="text-white text-[20px] text-center mb-[20px]">Menu</h2>
+        <ul class="text-white flex flex-col items-center">
+            <li>Inicio</li>
+            <li>Como funciona</li>
+            <li>Clientes</li>
+            <li>Contactos</li>
+        </ul>
+    </div>
+</footer>
+        
+</body>
+</html>
